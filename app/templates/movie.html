@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% if title %}
+    <title>
+        Movie file
+    </title>
+    {% else %}
+    <title>
+        {{ id }}
+    </title>
+    {% endif %}
+</head>
+<body>
+    <h1>Hello Movie {{ id }}</h1>
+</body>
+</html>
